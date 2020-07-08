@@ -3,12 +3,24 @@
   <head>
     <meta charset="UTF-8">
     <title>Fork Me! FCC: Test Suite Template</title>
+    <style>
+      #nav-bar{
+        display: flex;
+        position: fixed;
+          top: 0px;
+          width: 100%;
+      }
+      @media only screen and (max-width: 600px) {
+        body {
+          background-color: lightblue;
+        }
+      }
+    </style>
     <link rel="stylesheet" href="css/style.css">
   </head>
 
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-<h1>hello world, we are software developers!</h1>
 <header id="header">
   <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTNoD9oT_VnEYNKKeOor8U4qK5T1LF4bC2iRDD75fQdveQMHTUA" id="header-img">
   <nav id = "nav-bar">
@@ -19,12 +31,13 @@
     </ul>
   </nav>
 </header>
+<h1>hello world, we are software developers!</h1>
 <section id="video-section">
   <iframe width="420" height="315" id = "video" src="https://www.youtube.com/embed/tgbNymZ7vqY">
   </iframe>
 </section>
 <section id="form-email">
-  <form method = "get" action = "#" id = "form">
+  <form method = "get" action = " https://www.freecodecamp.com/email-submit" id = "form">
       <input type="email" name="email" id="email" placeholder="enter email here"/>
       <input type="submit" value="submit" id="submit"/>
 
